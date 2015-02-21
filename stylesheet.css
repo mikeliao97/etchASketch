@@ -1,0 +1,77 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+	background-color: gray;
+}
+h1{
+	text-align: center;
+	background-color: white;
+}
+
+#wrapper {
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#inner {
+	width: 25%;
+	margin: 0 auto;
+}
+
+button {	
+	padding-left: 20px;
+	background-color: blue;
+}
+
+#buttons {
+	margin: 10px;
+	height: 100%;
+	
+}
+
+#buttons div{
+	margin: 10px auto;
+	
+}
+
+/* Now the actual content */
+#content {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin-bottom: 50px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.box {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	height: 6px;
+	width: 6px;
+
+}
+
+.white {
+	z-index: 1;
+	background-color: white;
+
+}
+
+.green {
+	z-index: 1;
+	background-color: green;
+}
+
+footer {
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+}
